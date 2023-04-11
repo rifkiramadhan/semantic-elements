@@ -1,0 +1,25 @@
+/* Aside */
+aside {
+  width: 25%;
+  float: right;
+  padding-left: 20px;
+  font-style: italic;
+  background-origin: lightgray;
+}
+
+img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+/* Responsive Desktop */
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
