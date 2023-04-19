@@ -6,6 +6,6 @@
 
 ![](./screenshot/landing.png)
 
-## DETAIL PAGE
+## DETAILS PAGE
 
 ![](./screenshot/detail.png)
