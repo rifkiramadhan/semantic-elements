@@ -9,10 +9,20 @@ nav {
   z-index: 1;
 }
 
+nav.detail-navigation {
+  overflow: hidden;
+  background-color: grey;
+  position: sticky;
+  top: 0;
+  margin-bottom: 25px;
+  z-index: 1;
+}
+
 nav a {
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -59,5 +69,14 @@ nav a.icon {
     right: 0;
     top: 0;
     border-radius: 8px;
+  }
+
+  nav.detail-navigation {
+    padding: 0px;
+  }
+
+  nav a.detail-navigation-link {
+    float: left;
+    font-weight: bold;
   }
 }

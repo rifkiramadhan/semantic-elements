@@ -1,13 +1,12 @@
 /* Section */
-section {
+section.home-section {
   padding: 0.1px;
   margin: 2px;
-  border: 1px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
 }
 
-section:hover {
+section.home-section:hover {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(0, -8px);
   transform: translate(0, -8px);

@@ -5,8 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic Detail</title>
+
+    <!-- My Icon -->
+    <link rel="shortcut icon" href="../images/icons/semantic.png" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/navigation.css" />
+    <link rel="stylesheet" href="../css/article.css" />
+    <link rel="stylesheet" href="../css/section.css" />
+    <link rel="stylesheet" href="../css/aside.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
   </head>
   <body>
     <!-- Buatkan Responsive Static Layout Untuk Halaman Detail -->
+    <header>
+      <h1>Header</h1>
+      <p>My suppercool header.</p>
+    </header>
+
+    <nav class="detail-navigation">
+      <a class="detail-navigation-link" href="../../index.html">&#8249; Back</a>
+    </nav>
+
+    <main>
+      <div id="content">
+        <div class="detail-content">
+          <section class="detail-section">
+            <article class="detail-article">
+              <img src="../images/logos/dummy.png" alt="Detail Images" />
+              <h1 class="detail-heading1">Heading Detail</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Provident, perferendis dignissimos numquam officia sint dolorum
+                assumenda repellendus laborum? Qui beatae dicta minus
+                praesentium quaerat delectus itaque temporibus illo, aliquam
+                distinctio quas atque eum est debitis, cumque odio modi possimus
+                eveniet a placeat tempora pariatur maxime earum doloribus? Vel,
+                labore beatae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quaerat molestiae iusto nisi voluptatum reiciendis repudiandae
+                perspiciatis sit commodi ut? Minima sequi velit omnis rem,
+                laborum fuga eveniet dolores saepe corporis voluptatibus esse
+                dolorem perferendis magnam aperiam perspiciatis debitis
+                excepturi, ab porro quam odit maiores iste libero voluptate.
+                Iste, eveniet quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae vero quia provident earum minus delectus saepe,
+                accusamus maiores ullam quo doloribus? Dolorem dolorum a
+                impedit.
+              </p>
+
+              <button
+                id="button12"
+                class="button detail-button"
+                onclick="detailButon()"
+              >
+                Like Me
+              </button>
+            </article>
+          </section>
+        </div>
+      </div>
+
+      <!-- Aside Start -->
+      <aside>
+        <!-- Section Start -->
+        <section class="section">
+          <!-- Article Start -->
+          <article class="article">
+            <h2>Figure 1</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+              iusto sapiente repellat impedit laudantium tempora?
+            </p>
+            <figure>
+              <img
+                width="100%"
+                src="../images/logos/aside.jpg"
+                alt="Figure Img"
+              />
+              <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              perspiciatis earum quibusdam porro nostrum eos laborum enim
+              deleniti voluptate, tenetur consequatur, sunt dignissimos iusto
+              odio.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              perspiciatis earum quibusdam porro nostrum eos laborum enim
+              deleniti voluptate, tenetur consequatur, sunt dignissimos iusto
+              odio.
+            </p>
+            <a class="link" href="#">Visit Me</a>
+            <button id="button13" class="button" onclick="detailButon()">
+              Like Me
+            </button>
+          </article>
+          <!-- Article End -->
+        </section>
+        <!-- Section End -->
+      </aside>
+      <!-- Aside End -->
+    </main>
+
+    <footer>
+      <p>Author: Rifki Ramadhan</p>
+      <p>
+        <a href="rifkiramadhan2@gmail.com">riifkiramadhan2@gmail.com</a>
+      </p>
+    </footer>
+
+    <script src="../js/button.js"></script>
   </body>
 </html>
