@@ -8,4 +8,4 @@
 
 ## DETAILS PAGE
 
-![](./screenshot/detail.png)
+![](./screenshot/details.png)
