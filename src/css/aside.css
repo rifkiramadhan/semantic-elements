@@ -14,18 +14,3 @@ img {
   object-position: center;
   border-radius: 8px 8px 0px 0px;
 }
-
-/* Responsive Desktop */
-@media screen and (max-width: 1000px) {
-  #content,
-  aside {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  #content {
-    margin-bottom: 8px;
-  }
-}
